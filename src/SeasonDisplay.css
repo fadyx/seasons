@@ -1,0 +1,47 @@
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  align-content: center;
+  text-align: center;
+}
+
+.weather-container {
+  padding: 1%;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.icon-left {
+  align-self: flex-start;
+}
+
+.content {
+  margin: auto;
+}
+
+.icon-right {
+  align-self: flex-end;
+}
+
+.winter {
+  background-color: aliceblue;
+}
+
+.summer {
+  background-color: orange;
+}
+
+.weather-container.summer i {
+  color: red;
+}
+
+.weather-container.winter i {
+  color: blue;
+}
